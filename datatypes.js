@@ -7,7 +7,7 @@ console.log(a);
 //number data types
 console.log(10,20,30);
 
-//boolean data types
+//boolean data types 
 test = 10 > 20;
 console.log(test);
 
@@ -29,4 +29,29 @@ console.log(apple);
 
 //Complex Data Types
 
-//Arra
+//Array
+//use [] for write the array
+//array should be different types data types
+let fruits = ["apple", "mango", 55 , {name: "bhanu"} ]
+
+console.log(fruits); 
+
+//Object
+//Use {} for write the object
+const games = {
+    cricket: "dhoni",
+    football:"racer"
+}
+
+console.log(games);
+
+//to knowing the data type
+
+console.log(typeof games); //result object
+console.log(typeof fruits); //result object
+
+// In JavaScript everything is object
+
+//To know whether it is array or not
+
+console.log(Array.isArray(fruits)); // It result true, it is array
