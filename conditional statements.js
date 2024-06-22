@@ -27,7 +27,7 @@ var y = 50;
 var z = 200;
 
 if(x == y) {
-document.write("x is qual to y");
+document.write("x is equal to y");
 } else if (y > z) {
     document.write("blue color");
 } else if (z > x) {

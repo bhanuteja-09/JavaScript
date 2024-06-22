@@ -59,7 +59,7 @@ if ((x > y) || (y < z)) {
         document.write("true answer")
      }
 
-//ternary operator(logical operator)
+//Ternary operator(logical operator)
 
 document.write(
 2 + 3 == 6 ? "yes correct answer": "No wrong answer"
